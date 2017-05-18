@@ -70,14 +70,14 @@ class TreeSelector
   @@treeBySpec= Hash.new
   def self.getTree(treeType)
     if @@treeBySpec.key? treeType
-      return @@treeBySpec.fetch treeType
+      return _____________________ #>> 1. Fill in the blank
     else
       if treeType.eql? "Oak Tree"
         tree = OakTree.new
-        @@treeBySpec[treeType] = tree
+        _____________________ #>> 2. Fill in the blank
       elsif treeType.eql? "Flowering Cherry"
         tree = FloweringCherry.new
-        @@treeBySpec[treeType] = tree
+        _____________________ #>> 3. Fill in the blank
       else
         puts "#{treeType} not found"
       end
