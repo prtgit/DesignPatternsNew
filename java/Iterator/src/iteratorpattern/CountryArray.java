@@ -13,7 +13,7 @@ public class CountryArray implements CountryIterable{
 	
 	@Override
 	public Iterator getIterator(){
-		return Arrays.asList(countryArray).iterator();// this return statement could be left as a blank
+		return _______________;//>> Blank 1
 	}
 
 }
