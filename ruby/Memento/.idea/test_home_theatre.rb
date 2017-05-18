@@ -83,12 +83,12 @@ class HomeTheatre
 
 
   def createMemento
-    Memento.new @ledTv, @speaker
+    ____________________ #>> Blank 1
   end
 
   def setMemento(memento)
-    @ledTv = memento.getLedTv
-    @speaker = memento.getSpeaker
+    @ledTv = _________________  #>> Blank 2
+    @speaker = _________________  #>> Blank 3
   end
 
   def self.getStateCount

@@ -29,13 +29,13 @@ public class HomeTheatre {
 	}
 	
 	public Memento createMemento() {
-		return new Memento(ledTv,speaker); //This could be left as a blank
+		return ____________________; //>> 1. Fill in the Blank 
 	} 
 	
 	public void setMemento(Memento memento)
 	 {
-		ledTv = memento.getLedTv();            //The method definition could be left as a blank
-		speaker = memento.getSpeaker();
+		ledTv = ____________________; //>> 2. Fill in the Blank           
+		speaker = ____________________; //>> 3. Fill in the Blank 
 	 }
 	
 	public static int getStateCount(){
