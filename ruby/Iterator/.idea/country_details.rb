@@ -36,7 +36,7 @@ end
 
 class CountryDetails
   def self.displayCounries(group)
-    group.each do|country|
+    ____________ do|country| #1. Fill in the blank
       puts "Country Name = #{country.getName} Country Area = #{country.getArea} Country Population = #{country.getPopulation}"
     end
   end
@@ -45,5 +45,5 @@ end
 countryArray = CountryArray.new.getCountryArray
 countrySet = CountrySet.new.getCountrySet
 
-CountryDetails.displayCounries(countryArray)
-CountryDetails.displayCounries(countrySet)
+CountryDetails._______________(countryArray) #2. Fill in the blank
+CountryDetails._______________(countrySet) #3. Fill in the blank
