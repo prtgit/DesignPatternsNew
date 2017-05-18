@@ -1,21 +1,17 @@
 package pctypes;
 
-public class BasicComputer implements Computer 
-{
+public class BasicComputer implements Computer {
     private int ram = 256;
     private int rom = 4;
 	@Override
-	public String getParts() {   
+	_________________________ {   //>> 1.Fill in the blank
 		return "RAM ="+ ram +"MB, ROM="+rom;
 		
 	}
 
 	@Override
 	public int getCost() {
-		// TODO Auto-generated method stub
 		return 200; 
 		
 	}
-	
-
 }

@@ -5,12 +5,12 @@ public abstract class HardwareCustomizer implements Computer
 	protected Computer tempComp;
 	public HardwareCustomizer(Computer newComp)
 	{
-		tempComp = newComp; 
+		_____________________; //>> 2.Fill in the blank
 		
 	}
 	public String getParts()
 	{
-		return tempComp.getParts(); 
+		return ____________________; //>> 3.Fill in the blank
 	}
 	public int getCost()
 	{

@@ -3,20 +3,20 @@ package pctypes;
 public class GamingComputer extends HardwareCustomizer {
     private int graphics = 2;
     private int graphicsCost = 10;
-	public GamingComputer (Computer newComp) 
+	_____________________ (Computer newComp) //>> 6.Fill in the header for the missing routine
 	{
-		super(newComp); 
+		_________________; //>> 7.Fill in the blank
+		
+		
 	}
     
-    @Override
+        @Override
 	public String getParts() {
-		// TODO Auto-generated method stub
-		return tempComp.getParts()+"Graphics Card= "+graphics +"GB"; //>> 8.Fill in the blank
+		return _____________________+"Graphics Card= "+graphics +"GB"; //>> 8.Fill in the blank
 	}
 
 	@Override
 	public int getCost() {
-		// TODO Auto-generated method stub
 		return tempComp.getCost()+graphicsCost;
 	}
 
