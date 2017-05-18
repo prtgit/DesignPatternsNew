@@ -15,13 +15,13 @@ public class TravelClient {
 		
 		switch(choice){
 			case 1: Travel busTravel = new BusTravel();
-				    busTravel.travel();
+				    busTravel.______________; //>> 3. Fill in the blank
 				    break;
 			case 2: Travel airTravel = new AirTravel();
-			        airTravel.travel();
+			        airTravel.________________; //>> 4. Fill in the blank
 			        break;
 			case 3: Travel roadTrip = new RoadTrip();
-			        roadTrip.travel();
+			        roadTrip._______________; //>> 5. Fill in the blank
 			default: System.out.println("Travel choice not available");
 		
 		}

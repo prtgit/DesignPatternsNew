@@ -2,8 +2,8 @@ class Travel
   def travel
     identifyDestination()
     identifyTravelDates()
-    if(!isPublicTransport())
-      useVehicle
+    if(__________________) #>> Blank 1
+      usePrivateVehicle()
     end
     if(isMealAvailable())
         chooseMeal()
@@ -11,7 +11,7 @@ class Travel
     if(isPublicTransport())
         bookTicket()
     end
-    displayTravelDetails()
+    ______________________ #>> Blank 2
   end
 
   def identifyDestination
@@ -228,13 +228,14 @@ choice = gets.chomp
 case choice
   when "1"
     busTravel = BusTravel.new
-    busTravel.travel
+    busTravel.______________ #>> Blank 3
   when "2"
     airTravel = AirTravel.new
-    airTravel.travel
+    airTravel.______________ #>> Blank 4
   when "3"
     roadTrip = RoadTrip.new
-    roadTrip.travel
+    roadTrip._______________ #>> Blank 5
   else
-    puts "Travel Choice Not available"
+    puts "Travel choice not available"
 end
+

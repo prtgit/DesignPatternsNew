@@ -5,7 +5,7 @@ public abstract class Travel {
 	final void travel(){
 		identifyDestination();
 		identifyTravelDates();
-		if (!usePublicTransport()){
+		if (_________________){ //>> 1. Fill in the blank 
 			usePrivateVehicle();
 		}
 		if (isMealAvailable()){
@@ -14,7 +14,7 @@ public abstract class Travel {
 		if (usePublicTransport()){
 			bookTicket();
 		}	
-		displayTravelDetails();
+		____________________; //>> 2. Fill in the blank
 	}
 	
 	
