@@ -33,8 +33,8 @@
   class BookIssueFacade
     def initialize studentId
       @studentId = studentId;
-      @acctCheck = StudentAccountCheck.new;
-      @bookCheck = BookAvailabilityCheck.new;
+      @acctCheck = ______________________; #>> Blank 1
+      @bookCheck = ______________________; #>> Blank 2 
     end
     def getStudentId
       @studentId
