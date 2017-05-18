@@ -3,14 +3,14 @@ package bookissue;
 public class BookIssueFacade {
 	
 	private int studentId;
-	StudentAccountCheck acctCheck;
-	BookAvailablityCheck bookCheck;
+	__________________ acctCheck; //>> Blank 1
+	__________________ bookCheck; //>> Blank 2
 	
 	
 	public BookIssueFacade(int studentId) {
 		this.studentId = studentId;	
-		acctCheck = new StudentAccountCheck();
-		bookCheck = new BookAvailablityCheck();
+		acctCheck = ______________________; //>> Blank 3
+		bookCheck = ______________________; //>> Blank 4
 	}
 	public int getStudentId() {
 		return studentId;
