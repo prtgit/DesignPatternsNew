@@ -10,7 +10,7 @@ class AtmMachineState
   end
 end
 
-class HasDebitCardState < AtmMachineState
+class HasDebitCardState < _________________ # >> 7. Fill in the blank
   def insertCard
     puts "Debit Card is already there,So you cannot insert the Debit Card ..."
   end
@@ -46,17 +46,17 @@ class AtmMachine < AtmMachineState
   end
   def insertCard
     @atmMachineState.insertCard
-    if @atmMachineState.instance_of? NoDebitCardState
-      hasDebitCardState = HasDebitCardState.new;
-      setAtmMachineState hasDebitCardState
+    if @atmMachineState.instance_of? _______________ #>> 1. Fill in the blank 
+      hasDebitCardState = ________________; #>> 2. Fill in the blank
+      setAtmMachineState _________________; #>> 3. Fill in the blank
       puts "Now in ATM Machine internal state : #{@atmMachineState.class.to_s}"
     end
   end
   def ejectDebitCard
     @atmMachineState.ejectDebitCard
-    if @atmMachineState.instance_of? HasDebitCardState
-      noDebitCardState = NoDebitCardState.new;
-      setAtmMachineState noDebitCardState
+    if @atmMachineState.instance_of? _______________ #>> 4. Fill in the blank
+      noDebitCardState = ___________________; #>> 5. Fill in the blank
+      setAtmMachineState __________________; #>> 6. Fill in the blank
       puts "Now in ATM Machine internal state : #{@atmMachineState.class.to_s}"
     end
   end

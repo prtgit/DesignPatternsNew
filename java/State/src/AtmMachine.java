@@ -24,11 +24,11 @@ public class AtmMachine implements AtmMachineState
   {
     atmMachineState.insertCard();
 
-    if( atmMachineState instanceof NoDebitCardState )
+    if( atmMachineState instanceof _______________ ) //>> 1. Fill in the blank
     {
 
-      AtmMachineState hasDebitCardState = new HasDebitCardState();
-      setAtmMachineState(hasDebitCardState);
+      AtmMachineState hasDebitCardState = __________________; //>> 2. Fill in the blank
+      setAtmMachineState(_________________); //>> 3. Fill in the blank
       System.out.println("Now in ATM Machine internal state : "
                       + atmMachineState.getClass().getName());
     }
@@ -40,11 +40,11 @@ public class AtmMachine implements AtmMachineState
   {
     atmMachineState.ejectDebitCard();
 
-    if( atmMachineState instanceof HasDebitCardState )
+    if( atmMachineState instanceof _________________ ) //>> 4. Fill in the blank
     {
 
-      AtmMachineState noDebitCardState = new NoDebitCardState();
-      setAtmMachineState(noDebitCardState);
+      AtmMachineState noDebitCardState = _____________________; //>> 5. Fill in the blank
+      setAtmMachineState(_________________); //>> 6. Fill in the blank
       System.out.println("Now in ATM Machine internal state : "
                       + atmMachineState.getClass().getName());
     }

@@ -1,5 +1,5 @@
 
-public class HasDebitCardState implements AtmMachineState
+public class HasDebitCardState implements __________________ //>> 1. Fill in the Blank
 {
 
 
