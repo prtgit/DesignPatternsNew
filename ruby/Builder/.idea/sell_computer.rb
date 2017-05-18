@@ -173,38 +173,38 @@ class ComputerBuilder < PCBuilder
     m = Monitor.new
     m.setSize size
     @computer.addMonitor(m)
-    self
+    ________; #>> 1. Blank for return statement
   end
 
   def addMouse(type)
     m = Mouse.new
     m.setMouseType type
     @computer.addMouse m
-    self
+    ________; #>> 2. Blank for return statement
   end
 
   def addRAM(size)
     r = RAM.new
     r.setRAMCapacity size
     @computer.addRAM r
-    self
+    ________; #>> 3. Blank for return statement
   end
 
   def addHardDisk(size)
     h  = HardDisk.new
     h.setHardDiskCapacity size
     @computer.addHardDisk h
-    self
+    ________; #>> 4. Blank for return statement
   end
 
   def addRAMArray
     @computer.addRAMArray
-    self
+    ________; #>> 5. Blank for return statement
   end
 
   def addHDDArray
     @computer.addHDDArray
-    self
+    ________; #>> 6. Blank for return statement
   end
 
   def getComputer
@@ -238,7 +238,7 @@ end
 
 ce = ComputerEngineer.new
 c = ce.makeComputer
-cb = ce.getComputerBuilder
+cb = _________________; #>> 7. Blank
 cb.addHDDArray.addRAMArray.addHardDisk(1000).addRAM(256).addMonitor(17).addMonitor(20).addHardDisk(256).addHardDisk(784).addHardDisk(512).addMouse("Optical")
 puts 'Computer Assembled and Ready'
 
