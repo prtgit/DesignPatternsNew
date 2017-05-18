@@ -6,7 +6,7 @@ public class SellComputer {
 		ComputerEngineer ce = new ComputerEngineer();
 		
 		Computer c = ce.makeComputer();
-		ComputerBuilder cb = ce.getComputerBuilder();
+		ComputerBuilder cb = _________________; //>>7. Blank 
 		cb.addHDDArray().addRAMArray().addHardDisk(1000).addRAM(256).addMonitor(17).addHardDisk(256).addHardDisk(784).addHardDisk(512).addMouse("Optical");
 		System.out.println("Computer Assembled and ready");
 		
