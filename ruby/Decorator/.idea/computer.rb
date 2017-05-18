@@ -25,11 +25,11 @@ end
 
 class HardwareCustomizer < Computer
   def initialize(newComp)
-    @tempComp = newComp 
+    _____________________; #>> 1.Fill in the blank
   end
 
   def getParts
-    @tempComp.getParts
+     ____________________; #>> 2.Fill in the blank
   end
 
   def getCost
@@ -38,14 +38,14 @@ class HardwareCustomizer < Computer
 end
 
 class GamingComputer < HardwareCustomizer
-  def initialize(newComp)
-    super newComp
+  _____________________ (newComp) #>> 5.Fill in the header for the missing routine
+    _________________ #>> 6.Fill in the blank
     @graphics = 2
     @graphicsCost = 10
   end
 
   def getParts
-    "#{@tempComp.getParts} Graphics Card = #{@graphics} GB"
+    "#{_____________________} Graphics Card = #{@graphics} GB" #>> 7.Fill in the blank
   end
 
   def getCost
@@ -55,13 +55,13 @@ end
 
 class Laptop < HardwareCustomizer
   def initialize(newComp)
-    super newComp
+    _____________________; #>> 3. Fill in the blank
     @ssd = 200
     @ssdCost = 80
   end
 
   def getParts
-    "#{@tempComp.getParts} Solid State Drive = #{@ssd} GB"
+    "#{_______________________} Solid State Drive = #{@ssd} GB" #>> 4.Fill in the blank
   end
 
   def getCost
